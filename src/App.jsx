@@ -35,14 +35,15 @@ import './App.css'
 
 // export default App
 
-
+import Hello from './hello'
 import KgButton from "c:/Users/harsh/first-react-app/second-react-comp/src/kgButton";
 
 function App() {
   return (
     <div>
       <p>im here your react project</p>
-      <KgButton />
+      <KgButton></KgButton>
+      <Hello></Hello>
     </div>
   )
 }
