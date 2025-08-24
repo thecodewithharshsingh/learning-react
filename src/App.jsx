@@ -37,6 +37,7 @@ import './App.css'
 
 import Hello from './hello'
 import KgButton from "c:/Users/harsh/first-react-app/second-react-comp/src/kgButton";
+import Random from './Random'
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
       <p>im here your react project</p>
       <KgButton></KgButton>
       <Hello></Hello>
+      <Random></Random>
     </div>
   )
 }
